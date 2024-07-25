@@ -5,11 +5,23 @@
     justify-content: space-between;
     color: #333333;
     align-items: center;
-    
+    border-bottom: 1px solid gray;
+
 }
+/* #main_menu{
+    display: flex;
+   메인메뉴는 브라우저 기준 가운데정렬이므로 position속성사용해서 가운데 정렬해줘야함
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+} */
+
+
+
+
+
 #main-menu{
     display: flex;
-    
 }
 li{
     margin-right: 40px;
@@ -32,13 +44,89 @@ li{
 }
 .maintitle{
     font-weight: 400;
+    margin-bottom: 30px;
 }
 .outbox{
     display: flex;
     overflow: hidden;
 }
 .inbox img{
-    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-box .button{
+    cursor: pointer;
+}
+.main-box .button:hover{
+    background-color: yellowgreen;
 }
 
 /* 섹션1 */
+.sec1title{
+    margin-bottom: 50px;
+}
+.title h1{
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.sec1-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec1-box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec1-box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec1box{
+    background-color: #F3F3F3;
+    padding: 40px 48px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 650px;
+    height: 159px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1box img{
+    width: 150px;
+    height: 100px;
+}
+.sec1box:nth-child(2){
+    margin-right: 0;
+}
+.sec1box p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec1 .service{
+    cursor: pointer;
+    background-color: #f3f3f3;
+    width: 279px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.service .servicebutton{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* 섹션2 */
+
+
