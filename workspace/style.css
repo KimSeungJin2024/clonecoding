@@ -1,0 +1,44 @@
+.header-area{
+    height: 85px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+    align-items: center;
+    
+}
+#main-menu{
+    display: flex;
+    
+}
+li{
+    margin-right: 40px;
+}
+.main-box{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    margin-bottom: 70px;
+}
+.maintitlebox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.maintitlebox .button{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+.maintitle{
+    font-weight: 400;
+}
+.outbox{
+    display: flex;
+    overflow: hidden;
+}
+.inbox img{
+    margin-left: 10px;
+}
+
+/* 섹션1 */
