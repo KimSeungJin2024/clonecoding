@@ -8,20 +8,11 @@
     border-bottom: 1px solid gray;
 
 }
-/* #main_menu{
-    display: flex;
-   메인메뉴는 브라우저 기준 가운데정렬이므로 position속성사용해서 가운데 정렬해줘야함
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
-} */
-
-
-
-
-
 #main-menu{
     display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 li{
     margin-right: 40px;
@@ -63,6 +54,8 @@ li{
 /* 섹션1 */
 .sec1title{
     margin-bottom: 50px;
+    /* font-size: 38px;
+    font-weight: 400; */
 }
 .title h1{
     font-size: 38px;
@@ -86,23 +79,31 @@ li{
 }
 .sec1box{
     background-color: #F3F3F3;
-    padding: 40px 48px;
-    margin-bottom: 10px;
-    margin-right: 5px;
+    padding: 40px;
+    margin: 10px;
     width: 650px;
     height: 159px;
     border-radius: 40px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;sec1title1 */
     align-items: center;
-}
-.sec1box img{
-    width: 150px;
-    height: 100px;
 }
 .sec1box:nth-child(2){
     margin-right: 0;
 }
+.sec1img{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin: 30px;
+}
+.sec1img img{
+    margin-right: 10px;
+}
+.sec1img img:last-child{
+    margin-right: 0;
+}
+
 .sec1box p{
     font-size: 18px;
     font-weight: bold;
@@ -128,5 +129,50 @@ li{
 }
 
 /* 섹션2 */
+.sec2 .title{
+    margin-bottom: 30px;
+}
+.sec2-first-box .firstbox{
+    width: 427px;
+    height: 620px;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.sec2-first-box .firstbox:last-child{
+    margin-right: 0;
+}
 
+.sec2-first-box .firstbox .text-box{
+    width: 427px;
+    height: 362px;
+    padding: 30px;
+}
+.sec2-first-box{
+    display: flex;
+}
 
+.sec2-first-box .firstbox p:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.text-box-title{
+    display: flex;
+}
+.bodo{
+    width: 82px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    font-size: 13px;
+    margin-right: 10px;
+}
+.text-box-title p{
+    color: grey;
+}
