@@ -3,40 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <title>카카오</title>
 </head>
 <body>
     <!-- 헤더 영역 -->
-     <header class="header-area">
-        <!-- 로고 영역 -->
-        <div id="logo">
-            <img src="./img/kakaologo.png" alt="">
+     <header>
+        <div class="header-area">
+            <!-- 로고 영역 -->
+            <div id="logo">
+                <img src="./img/kakaologo.png" alt="">
+            </div>
+
+            <!-- 메뉴영역 -->
+            <ul id="main-menu">
+                <li><a href="#none">소개</a></li>
+                <li><a href="#none">이미지</a></li>
+                <li><a href="#none">기술과 서비스</a></li>
+                <li><a href="#none">약속과 책임</a></li>
+                <li><a href="#none">뉴스</a></li>
+                <li><a href="#none">투자정보</a></li>
+            </ul>
+
+            <!-- 검색창 영역 -->
+            <div class="search-box">
+                <img src="./img/kakaosearch.png" alt="">
+            </div>
         </div>
-
-        <!-- 메뉴영역 -->
-         <ul id="main-menu">
-            <li><a href="#none">소개</a></li>
-            <li><a href="#none">이미지</a></li>
-            <li><a href="#none">기술과 서비스</a></li>
-            <li><a href="#none">약속과 책임</a></li>
-            <li><a href="#none">뉴스</a></li>
-            <li><a href="#none">투자정보</a></li>
-         </ul>
-
-         <!-- 검색창 영역 -->
-          <div class="search-box">
-            <img src="./img/kakaosearch.png" alt="">
-          </div>
      </header>
 
 
      <!-- 메인영역 -->
-     <main class="main-box">
+    <main>
+
+      
+     <div class="main-box">
         <div class="maintitlebox">
-            <h1 class="maintitle">카카오와 카카오 그룹이 축척해 온 이야기들</h1>
-            <div class="button"><a href="#none"></a></div>
+                <!-- <img src="./img/film.webp" alt="">
+                <h1 class="maintitle">카카오와 카카오 그룹이 축척해 온 이야기들</h1> -->
+
+                <h1 class="maintitle"><img src="./img/film.webp" alt="">카카오와 카카오 그룹이 축척해 온 이야기들</h1>
+
+            <div class="button"><img src="./img/jungji.svg" alt=""></div>
         </div>
 
         <div class="outbox">
@@ -55,24 +63,15 @@
             <div class="inbox inbox5">
                 <img src="./img/main5.png" alt="">
             </div>
-            <!-- <div class="inbox inbox6">
-                <img src="./img/main6.png" alt="">
-            </div>
-            <div class="inbox inbox7">
-                <img src="./img/main7.png" alt="">
-            </div>
-            <div class="inbox inbox8">
-                <img src="./img/main8.png" alt="">
-            </div>
-            <div class="inbox inbox9">
-                <img src="./img/main9.png" alt="">
-            </div> -->
         </div>
-     </main>
+     </div>
 
      <!-- 섹션1 영역 -->
      <section class="sec1">
         <div class="title sec1title">
+            <div class="gunggu">
+                <img src="./img/junggu.gif" alt="">
+            </div>    
             <h1>더나은 세상을 만드는 카카오 서비스</h1>
         </div>
         
@@ -83,38 +82,76 @@
                 </div>
 
                 <div class="sec1img">
-                    <img src="./img/sec1kakao.png" alt="">
-                    <img src="./img/c9425290018c00001.png" alt="">
-                    <img src="./img/c942653a018c00001.png" alt="">
-                    <img src="./img/다운로드.svg" alt="">
+                    <p><img src="./img/sec1kakao.png" alt=""></p>
+                    <p><img src="./img/c9425290018c00001.png" alt=""></p>
+                    <p><img src="./img/c942653a018c00001.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
                 </div>
             </div>
 
             <div class="sec1box">
-                <p>비즈니스</p>
-                <img src="" alt="">
+                <div class="sec1title1">
+                    <p>비지니스</p>
+                </div>
+                
+                <div class="sec1img">
+                    <p><img src="./img/sec1kakaochat.png" alt=""></p>
+                    <p><img src="./img/sec1cloud.png" alt=""></p>
+                    <p><img src="./img/sec1agit.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
+                </div>
             </div>
         </div>
 
         <div class="sec1-box2">
             <div class="sec1box">
-                <p>일상편의</p>
-                <img src="" alt="">
+                <div class="sec1title1">
+                    <p>일상편의</p>
+                </div>
+                
+                <div class="sec1img">
+                    <p><img src="./img/sec1kakaomap.png" alt=""></p>
+                    <p><img src="./img/sec1kakaotaxi.png" alt=""></p>
+                    <p><img src="./img/sec1kakaobank.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
+                </div>
             </div>
             <div class="sec1box">
-                <p>쇼핑</p>
-                <img src="" alt="">
+                <div class="sec1title1">
+                    <p>쇼핑</p>
+                </div>
+                
+                <div class="sec1img">
+                    <p><img src="./img/sec1kakaogift.png" alt=""></p>
+                    <p><img src="./img/sec1kakaomarket.png" alt=""></p>
+                    <p><img src="./img/sec1kakaozzzz.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
+                </div>
             </div>
         </div>
 
         <div class="sec1-box3">
             <div class="sec1box">
-                <p>엔터테인먼트</p>
-                <img src="" alt="">
+                <div class="sec1title1">
+                    <p>엔터테인먼트</p>
+                </div>
+                
+                <div class="sec1img">
+                    <p><img src="./img/sec1kakaopaper.png" alt=""></p>
+                    <p><img src="./img/sec1kakaojapan.png" alt=""></p>
+                    <p><img src="./img/sec1kakaomusic.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
+                </div>
             </div>
             <div class="sec1box">
-                <p>소셜임팩트</p>
-                <img src="" alt="">
+                <div class="sec1title1">
+                    <p>소셜임팩트</p>
+                </div>
+                
+                <div class="sec1img">
+                    <p><img src="./img/sec1kakaogift.png" alt=""></p>
+                    <p><img src="./img/다운로드.svg" alt=""></p>
+                </div>
             </div>
         </div>
 
@@ -142,7 +179,7 @@
                         <div class="bodo">보도자료</div>
                         <p>2024.07.24</p>
                     </div>    
-                    <p>"포털 다음 카카오톡 오픈채팅에서 <br>올림픽 소식부터 응원 수다까지 즐긴다!"</p>
+                    <p class="text-box-first-text">"포털 다음 카카오톡 오픈채팅에서 <br>올림픽 소식부터 응원 수다까지 즐긴다!"</p>
                     <p>#파리올림픽 #콘텐츠CIC #특집페이지 #오픈채팅</p>
                 </div>
                 <img src="./img/sec2-1.png" alt="">
@@ -153,7 +190,7 @@
                         <div class="bodo">보도자료</div>
                         <p>2024.07.16</p>
                     </div>
-                    <p>카카오엔터, 올 하반기 뮤직 비즈니스 <br>키워드도 '글로벌'</p>
+                    <p class="text-box-first-text">카카오엔터, 올 하반기 뮤직 비즈니스<br> 키워드도 '글로벌'</p>
                     <p>#카카오엔터테인먼트 #글로벌IP강화</p>
                 </div>
                 <img src="./img/sec2-2.png" alt="">
@@ -164,7 +201,7 @@
                         <div class="bodo">보도자료</div>
                         <p>2024.07.15</p>
                     </div>
-                    <p>카카오,톡사원증 출시..회사인증부터 <br>전용 혜택까지</p>
+                    <p class="text-box-first-text">카카오,톡사원증 출시..회사인증부터 <br>전용 혜택까지</p>
                     <p>#카카오#톡지디털카드#디지털카드#톡사원증</p>
                 </div>
                 <img src="./img/sec2-3.png" alt="">
@@ -173,12 +210,21 @@
 
         <div class="sec2-second-box">
             <div class="secondbox">
-                <p>2024.07.15</p>
-                <p>카카오톡 쇼핑하기-카카오쇼핑라이브,바캉스 시즌'썸머워크(SUMMER WEEK)' 시작</p>
+                <div class="secondbox-titlebox">
+                    <img src="./img/jong.webp" alt="">
+                    <div class="bodo2">보도자료</div>
+                    <p>2024.07.15</p>
+                </div>    
+                    <p class="second-secondtext">카카오톡 쇼핑하기-카카오쇼핑라이브,바캉스 시즌'썸머워크(SUMMER WEEK)' 시작</p>
             </div>
+
             <div class="secondbox">
-                <p>2024.07.10</p>
-                <p>카카오엔터,올 하반기 눈부신 라인업으로 전세계 홀린다.</p>
+                <div class="secondbox-titlebox">
+                    <img src="./img/jong.webp" alt="">
+                    <div class="bodo2">보도자료</div>
+                    <p>2024.07.10</p>
+                </div>     
+                    <p class="second-secondtext">카카오엔터,올 하반기 눈부신 라인업으로 전세계 홀린다.</p>
             </div>
         </div>
 
@@ -201,14 +247,14 @@
       <!-- 섹션3 영역 -->
        <section class="sec3">
         <div class="title sec3title">
-            <img src="" alt="">
+            <img src="./img/sec3-title.png" alt="">
             <h1>약속과 책임</h1>
         </div>
 
         <div class="sec3-outbox">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="./img/sec3-1.png" alt="">
+            <img src="./img/sec3-2.png" alt="">
+            <img src="./img/sec3-3.png" alt="">
         </div>
        </section>
 
@@ -220,8 +266,8 @@
             </div>
 
             <div class="sec4-out-box1">
-                <div class="in-box">
-
+                <div class="in-box1">
+                    
                 </div>
                 <div class="in-box">
                     <img src="" alt="">
@@ -231,17 +277,105 @@
                 </div>
             </div>
 
-            <div class="sec4-out-box2"></div>
+            <div class="sec4-out-box2">
+                
+            </div>
 
             <div class="service">
                 <p>카카오 소식 모아보기</p>
+                <div class="servicebutton"></div>
             </div>
         </section>
-
+    </main>
 
 
 
       <!-- 푸터 영역 -->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <h2 class="footer-title">오늘의 카카오</h2>
+
+        <div class="footer-menu">
+           <ul class="menu1">
+            <li><a href="#none">카카오톡 공식 다운로드</a></li>
+            <li><a href="#none">카카오톡 백업</a></li>
+            <li><a href="#none">#카카오 이모티콘샵</a></li>
+            <li><a href="#none">#조용한 채팅방</a></li>
+            <li><a href="#none">#카카오맵</a></li>
+            <li><a href="#none">#지속가능성</a></li>
+            <li><a href="#none">#개발자도구</a></li>
+           </ul>
+
+           <ul class="menu2">
+            <li><a href="#none">카카오 그룹의 서비스</a></li>
+            <li><a href="#none">커뮤니케이션</a></li>
+            <li><a href="#none">일상편의</a></li>
+            <li><a href="#none">비즈니스</a></li>
+            <li><a href="#none">쇼핑</a></li>
+            <li><a href="#none">엔터테인먼트</a></li>
+            <li><a href="#none">임팩트</a></li>
+           </ul>
+
+           <ul class="menu3">
+            <li><a href="#none">카카오그룹</a></li>
+            <li><a href="#none">카카오</a></li>
+            <li><a href="#none">카카오페이</a></li>
+            <li><a href="#none">카카오뱅크</a></li>
+            <li><a href="#none">카카오모빌리티</a></li>
+            <li><a href="#none">카카오스타일</a></li>
+            <li><a href="#none">카카오엔터테인먼트</a></li>
+            <li><a href="#none">카카오게임즈</a></li>
+           </ul>
+
+           <ul class="menu4">
+            <li><a href="#none">카카오픽코마</a></li>
+            <li><a href="#none">카카오브레인</a></li>
+            <li><a href="#none">카카오엔터프라이즈</a></li>
+            <li><a href="#none">카카오헬스케어</a></li>
+            <li><a href="#none">카카오벤처스</a></li>
+            <li><a href="#none">카카오인베스트먼트</a></li>
+            <li><a href="#none">링키지랩</a></li>
+           </ul>
+
+           <ul class="menu5">
+            <li><a href="#none">IR</a></li>
+            <li><a href="#none">기업지배구조</a></li>
+            <li><a href="#none">주가정보</a></li>
+            <li><a href="#none">재무정보</a></li>
+            <li><a href="#none">IR행사</a></li>
+            <li><a href="#none">공시정보</a></li>
+            <li><a href="#none">공고</a></li>
+           </ul>
+
+           <ul class="menu6">
+            <li><a href="#none">계정 및 지원</a></li>
+            <li><a href="#none">카카오게정</a></li>
+            <li><a href="#none">카카오프라이버시</a></li>
+            <li><a href="#none">카카오 고객센터</a></li>
+            <li><a href="#none">다음 고객센터</a></li>
+            <li><a href="#none">커머스 고객센터</a></li>
+            <li><a href="#none">인재영입</a></li>
+           </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <ul class="footer-bottom-menu">
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">위치정보 이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">운영정책</a></li>
+                <li><a href="#none">청소년보호정책</a></li>
+                <li><a href="#none">접근성 안내</a></li>
+                <li><a href="#none">브랜드보호정책</a></li>
+                <li><a href="#none">권리침해신고안내</a></li>
+                <li><a href="#none">공지사항</a></li>
+                <li><a href="#none">사이버윤리실</a></li>
+                <li><a href="#none">Contact Us</a></li>
+            </ul>
+
+            <!-- <div class="footer-bottom-box">
+                <p>관련사이트</p>
+            </div> -->
+        </div>
+      </footer>
 </body>
 </html>
