@@ -18,7 +18,7 @@ main,footer{
 /* ================================================ */
 
 header {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #eee;
 }
 
 .header-area{
@@ -302,6 +302,77 @@ li{
     margin-left: 0;
 }
 /* 섹션4 */
+.sec4title{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+} 
+.sec4title h1{
+    font-weight: bold;
+}
+.sec4-out-box1{
+    display: flex;
+    align-items: center;
+}
+.inboxmenu{
+    width: 428px;
+    height: 153px;
+    background-color: #f3f3f3;
+    color: black;
+    padding: 36px 40px;
+    margin: 16px 0 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4img{
+    height: 84px;
+    width: 84px;
+    align-items: center;
+}
+.sec4img p{
+    width: 84px;
+}
+.sec4img p img{
+    width: 100%;
+}
+.inboxmenu-text .top-text-box{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sec4-bottom-text .sec4-bottom-text1{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.sec4-out-box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec4-in-box2{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 650px;
+    height: 150px;
+    padding: 36px 40px;
+    align-items: center;
+    margin-top: 16px;
+}
+.sec4-out-box1 .in-box img{
+    width: 460px;
+    height: 490px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sec4-out-box1 .in-box img:last-child{
+    margin-right: 0;
+}
 .sec4 .service{
     cursor: pointer;
     background-color: #f3f3f3;
